@@ -1,7 +1,7 @@
 ## Leahy Center Client Infrastructure Topic Decomposition
 The mindmap below outlines the initial decomposition for my topic regarding constructing infrastructure for a client of the Leahy Center.
 ### Mindmap
-![Mind Map](https://github.com/squatchulator/Capstone/assets/101014627/f412210f-ba41-431f-a59c-c176aba91de7)
+![Mind Map (1)](https://github.com/squatchulator/Capstone/assets/101014627/8dd70099-c11a-4154-bc0c-5cddfabb0a92)
 ### Outline
 ## Leahy Center Client Infrastructure
 ## Hardware

@@ -2,11 +2,9 @@
 # Script: user_import.ps1
 # Author:  Maxwell 'Maz9' Berry / Dylan Navarro
 # Description: Automates the addition of user accounts and the updating of existing accounts. 
-
 . .\config.ps1
 
 Add-Type -AssemblyName System.Web
- 
 $user_list_file_path=$args[0]
 if ($null -eq $user_list_file_path){
     Write-Host("No CSV file was provided... Using the default user_list.csv")

@@ -1,5 +1,11 @@
 # Capstone Home Page: 
 
+## Site Navigation: 
+- [Capstone Wiki](https://github.com/squatchulator/Capstone/wiki)
+- [Capstone Planning Board](https://github.com/users/squatchulator/projects/1)
+- [Capstone Implementation Board](https://github.com/users/squatchulator/projects/2)
+- [Capstone Task List](https://github.com/squatchulator/Capstone/issues)
+
 Generator, a local makerspace adjacent to The Leahy Center, faces significant IT infrastructure challenges leading to communication breakdowns, security vulnerabilities, and scalability limitations. Our capstone group (Miles, Max, Nico, and Jacob) designed our project around devloping a tailored solution for Generator. The purpose of this project was to fortify Generator's technological foundation, striking a balance between security and business functionality.
 
 The most recent incident that Generator faced really inspired this idea. An individual installed cryptocurrency mining software on multiple of Generator’s endpoints, consuming resources and driving up the power bill. This incident is one of the many risks that Generator is susceptible too that we aimed to mitigate:
@@ -26,8 +32,3 @@ We aimed to fortify Generator’s technological foundation, transforming it into
 - Account deployment script created (both current member deployments and script for new member deployments) and operational
 - Generator workstations joined to domain generator.local
 ```
-
-## Site Navigation: 
-- [Capstone Planning Board](https://github.com/users/squatchulator/projects/1)
-- [Capstone Implementation Board](https://github.com/users/squatchulator/projects/2)
-- [Capstone Task List](https://github.com/squatchulator/Capstone/issues)

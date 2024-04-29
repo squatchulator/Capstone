@@ -14,11 +14,17 @@ We aimed to fortify Generator’s technological foundation, transforming it into
 - Implement Power Supply Unit
 - Construct Acceptable Use Policy
 - Provide Generator users with new individualized accounts
-- 
+- Domain-join Generator workstations 
 ```
 ### Outcomes: 
 ```
-
+- Funding recieved, CAL licenses, Windows licenses (Server 2022 x2, Windows 10 Pro x18), Battery Backup, and SuperMicro Servers obtained and configured
+- Network segmented into 4 separate networks (Default/Infrastructure, Staff, Member, Guest)
+- Domain controllers configured in redundancy with DHCP, DNS, AD/DS, File Shares, Periodic Backups, Site Replication
+- Power supply unit installed and attached to all network cabinet components
+- Acceptable Use Policy created
+- Account deployment script created (both current member deployments and script for new member deployments) and operational
+- Generator workstations joined to domain generator.local
 ```
 
 ## Site Navigation: 

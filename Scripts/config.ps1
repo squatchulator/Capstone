@@ -1,22 +1,21 @@
 # Script: config.ps1
-# Author: Dylan 'Chromosom3' Navarro
-# Last Modified: Paul Gleason (1/27/2023)
+# Author: Maxwell Berry & Dylan Navarro
 # Description: Used with user_import.ps1. 
 # This file contains all the settings needed for the other script. 
 
 $Global:master_config = @{
     general_settings = @{
-        search_base = "OU=Members,OU=Generator_Users,DC=generator,DC=local";  # The OU the script checks.
+        search_base = "OU=Members,OU=Generator_Users,DC=generator,DC=local"; 
         use_random_pass = $true;
         password_min_len = 12;
         password_max_len = 17;
         password_symbol_count = 5;
-        default_pass = "ChangeMe!1";  # Only used if $user_random_pass is False.
+        default_pass = "ChangeMe!1";
         force_change_pass = $false;
-        temp_OU = "OU=Staging,OU=Generator_Users,DC=generator,DC=local";  # OU to put accounts in temporarily
+        temp_OU = "OU=Staging,OU=Generator_Users,DC=generator,DC=local"; 
         domain = (Get-ADDomain | Select-Object -Property DNSRoot).DNSRoot;
         month_year = Get-Date -Format "MM/yy";
-        home_directory_base = "\user-profiles"; # DO NOT INCLUDE TRAILING \
+        home_directory_base = "\user-profiles";
         home_directory_letter = "C";
     };
     mail_settings = @{
@@ -28,13 +27,12 @@ $Global:master_config = @{
 
     };
     disable_settings = @{
-        disable_users = $false;  # Disable all current user accounts 
-        move_users = $false;  # Move the newley disabled accounts
-        disabled_user_ou = "OU=Disabled-Accounts,OU=Generator_Users,DC=generator,DC=local";  # Where to move the accounts to. move_users needs to be $true.
-        # Array of usernames to exclude when disabaling users. Service accounts should go here.
+        disable_users = $false;
+        move_users = $false;
+        disabled_user_ou = "OU=Disabled-Accounts,OU=Generator_Users,DC=generator,DC=local";
         users_to_exclude = @(  
         );   
-        remove_groups = $true;  # Remove user groups when disabling accounts
+        remove_groups = $true;
     };
     group_settings = @{
         template_group = @{

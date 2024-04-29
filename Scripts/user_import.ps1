@@ -1,6 +1,6 @@
 # Generator Version
 # Script: user_import.ps1
-# Author:  Maxwell 'Maz9' Berry
+# Author:  Maxwell 'Maz9' Berry / Dylan Navarro
 # Description: Automates the addition of user accounts and the updating of existing accounts. 
 
 . .\config.ps1
